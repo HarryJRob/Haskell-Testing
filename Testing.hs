@@ -1,5 +1,10 @@
-let y = 5
+square x =
+    x * x
 
-double x = x*x
+cube x = 
+    x * x * x
 
-double y
+
+y = 5
+x = square y
+z = cube y
